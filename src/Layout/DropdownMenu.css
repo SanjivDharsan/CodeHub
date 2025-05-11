@@ -36,7 +36,7 @@
   background-color: orange;
   color: grey;
   transition: background-color 0.3s ease, color 0.3s ease;
-  border-radius: 5px; /* Ensure border-radius remains unchanged on hover */
+  border-radius: 5px;
 }
 
 .dropdown:hover .dropdown-menu {
