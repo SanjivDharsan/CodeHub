@@ -1,0 +1,61 @@
+.Navbarnavbar {
+  padding: 10px;
+  text-align: center;
+  width: auto;
+  background-color: #475569;
+  height: 90px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  /* position: fixed; */
+}
+.Navbarinnerdiv img:hover
+{
+  color: orange;
+}
+
+.NavbarnavbarLink {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size:x-large;
+  transition: color 0.3s ease;
+}
+.NavbarnavbarLink:hover{
+  color: orange;  
+
+}
+.NavbarButton {
+  background-color: transparent;
+  border: 2px solid orange;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  /* color: white; */
+  text-decoration: none;
+  margin: 0 10px;
+  font-size:large;
+  /* transition: color 0.3s ease; */
+}
+
+.NavbarButton:hover {
+  background-color: orange;
+  color: black;
+}
+.Navbarnavbar img
+{
+  height: 80px;
+  width:auto;
+}
+.Navbarinnerdiv
+{
+  display: flex;
+   justify-content: space-between;
+  align-items: center;
+}
+
+.buttonGap{
+  width:20px;
+}

@@ -1,0 +1,124 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    height: 100%;
+    width: 250px;
+    border-right: 3px solid rgb(68, 67, 88);
+    background-color: rgb(21, 32, 43);
+    color: rgb(201, 229, 253);
+    position: fixed;
+  
+}
+.right{
+    height: 100%;
+    width: 79%;
+    padding: 250px;
+    background-color: #1d2a35 !important;
+    color: aliceblue;
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #2d3146;
+    margin-bottom: 10px;
+
+}
+.lefth2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+a:hover{
+  color: green;
+}
+.ancho{
+    text-decoration: none;
+    color: rgb(201, 229, 253);
+
+}
+ul li{
+    padding-top: 20px;
+    text-align: start;
+}
+p{
+    text-align: start;
+    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#home{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e;
+    margin-bottom: 10px;
+}
+#intro{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e ;
+    margin-bottom: 10px;   
+}
+#syntax{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e ;
+    margin-bottom: 10px;   
+}
+#comment{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e ;
+    margin-bottom: 10px;   
+}
+#variable{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e ;
+    margin-bottom: 10px;   
+}
+#operator{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e ;
+    margin-bottom: 10px;   
+}
+#data{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e ;
+    margin-bottom: 10px;   
+}
+#if{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e ;
+    margin-bottom: 10px;   
+}
+#loop{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e ;
+    margin-bottom: 10px;   
+}
+#array{
+    padding: 20px;
+    overflow-y: scroll;
+    border: solid 1px  #4a506e ;
+    margin-bottom: 10px;   
+}
+h2{
+    text-align: start;
+    padding-left: 50px;
+}
+
+.code{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: start;
+    padding-left: 10px;
+    background-color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+.pp1{
+    font-size: x-large;
+}

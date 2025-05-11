@@ -1,0 +1,122 @@
+.Maggy
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0;
+    background-color: transparent;
+}
+.Earth
+{
+  object-fit: cover;
+  width:100%;
+}
+.Maggy input{
+  color: rgba(0, 0, 0, .5);
+}
+.imform {
+  width: 25rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+
+  /* Apply glassdoor effect */
+  backdrop-filter: blur(50px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(50px); /* For Safari */
+}
+
+
+.Maggy h1{
+  color: rgba(255, 255, 255, 0.78);
+  align-self: center;
+  letter-spacing: 1px;
+}
+.donkey input {
+  border-radius: 5px;
+  margin-left: 20%;
+  width: 60%;
+  height: 30px;
+  margin-bottom: 8%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: white;
+  padding: 5px; /* Adjust padding for better spacing */
+  color: rgba(0, 0, 0, 0.7); /* Adjust text color */
+}
+
+.donkey label {
+  margin-left: 20%;
+  color: white;
+  opacity: 0.9;
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 5px; /* Adjust margin bottom for better spacing */
+}
+.Link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.Link:hover {
+  text-decoration: none;
+}
+
+/* Login.css */
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.about-content:last-child {
+  margin-bottom: 0;
+}
+.jumanji
+{
+  font-size:large;
+  align-self: center;
+  transition: color 0.3s ease;
+}
+.jumanji:hover
+{
+  color:orange;
+}
+.loginbutton button
+{
+  background-color: transparent;
+  border: 2px solid orange;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size:large;
+}
+.loginbutton button:hover{
+  background-color: orange;
+  color: black;
+
+}

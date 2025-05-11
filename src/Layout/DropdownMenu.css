@@ -1,0 +1,49 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size:large;
+  transition: color 0.3s ease;
+  color: white;
+}
+.dropdown-toggle:hover {
+  color: orange;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: papayawhip;
+  border-radius: 5px;  
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li:hover {
+  background-color: orange;
+  color: grey;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px; /* Ensure border-radius remains unchanged on hover */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.ddlink {
+  text-decoration: none;
+  color: black;
+}

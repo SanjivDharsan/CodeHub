@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Crete+Round:ital@0;1&display=swap');
+.background {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle1 {
+    width: 250px; 
+    height: 500px;
+    border-radius: 20px 50px 20px 50px; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -200px;
+}
+
+.rectangle2 {
+    width: 250px; 
+    height: 500px;
+    border-radius: 20px 50px 20px 50px; 
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.rectangle3 {
+    width: 250px; 
+    height: 500px;
+    border-radius: 20px 50px 20px 50px; 
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust color and transparency as needed */
+    margin: 10px; /* Adjust margin as needed */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right : -200px;
+}
+
+.inner-image {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the image within the rectangle */
+}
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.abthd
+{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#cbd5e1;
+    font-size: 110px;
+}
+.pakki
+{
+    background-color: #64748b;
+}

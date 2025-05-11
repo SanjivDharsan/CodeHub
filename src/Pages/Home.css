@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Crete+Round:ital@0;1&family=Russo+One&display=swap');
+
+.Homecontainer {
+position: absolute;
+height:10vh;
+padding-left: 50px;
+padding-top: 50px;
+}
+.Homebutton {
+  color: #fff; 
+  border: none;
+  padding: 20px 40px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  text-decoration:none;
+} 
+.jersey-20-regular {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 4000;
+  font-style: normal;
+}
+
+.font
+{
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 180px ;
+  color: #e2e8f0;
+width:50%
+}
+
+
+.Homebutton:hover {
+  background-color: orange; 
+}
+
+.course-category
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.secondary-text {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  align-items: center;
+}
+
+.secondary-text.show {
+  opacity: 1;
+}
+
+.Homepotent
+{
+  height:101vh;
+  width:100%;
+  border-radius:0px 0px 20px 20px;
+  /* background-color:transparent ;if video */
+  background-color:#334155 ;
+  display: flex;
+  justify-content: center;
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.freak
+{
+  color:#e2e8f0;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+.photo
+{
+  display: flex;
+  align-items: center;
+  height:50vh;
+  padding-bottom: 50px;
+  gap: 100px;
+}
+.h1photo{
+  width:10px;
+  justify-self: flex-start;
+}
+.photo img{
+  height:30rem;
+}
+.Roadmaph1 {
+  /* Set the text color to transparent */
+  color: transparent;
+  /* Apply the gradient background */
+  background: #659999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* Clip the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Set the text fill color to the original color */
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.HTML
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.HTML-left
+{
+  height:40vh;
+  width:70vh;
+  background-color: #E5E5BE;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size:200px;
+}
+.HTML-right
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height:40vh;
+  width:70vh;
+  background-color: rgba(0,0,0, 0.3);
+  border-radius: 30px;
+}
+.CSS
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.CSS-left
+{
+  height:40vh;
+  width:70vh;
+  background-color: #64748b;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size:200px;
+}
+.CSS-right
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height:40vh;
+  width:70vh;
+  background-color: rgba(0,0,0, 0.3);
+  border-radius: 30px;
+  /* padding:15px; */
+}
+.JS
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.JS-left
+{
+  height:40vh;
+  width:70vh;
+  background-color: #166534;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size:150px   ;
+}
+.JS-right
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height:40vh;
+  width:70vh;
+  background-color: rgba(0,0,0, 0.3);
+  border-radius: 30px;
+  /* padding:15px; */
+}
+
+
